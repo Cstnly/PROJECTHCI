@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    bottom: 0%;
+    position: fixed;
+}
+
+footer .vorgreen_title
+{
+    font-family: "Montserrat", sans-serif;
+    color: #141414;
+    font-size: 2rem;
+    font-weight: bolder;
+    position: relative;
+    right: 3.2rem;
+    right: 0;
+}
+
+footer .social_icon
+{
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .social_icon li
+{
+    list-style: none;
+}
+
+footer .social_icon li a
+{
+    font-size: 2rem;
+    color: #141414;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social_icon li a:hover
+{
+    transform: translateY(-10px);
+}
+
+footer p
+{
+    font-family: "Montserrat", sans-serif;
+    color: #141414;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
